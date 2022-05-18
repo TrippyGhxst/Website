@@ -1,0 +1,117 @@
+/* CSS for adding content example */
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);
+
+body { 
+    font-family: "Courier New", Courier, monospace;
+    background: url("https://i.guim.co.uk/img/media/beb8ffcaefcecc9b9b25bd8b0db545d9f8aef61d/200_0_6648_3990/master/6648.jpg?width=620&quality=85&auto=format&fit=max&s=fa00c5de223e23234f860e93af8d5408") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    height: 1500px
+}
+#cost {
+    float: left;
+    clear: center;
+    width: 320px;
+    background-color: #fff;
+    color: #5a514c;
+    text-align: center;
+}
+
+h1, h2, p {
+    float: left;
+    clear: left;
+    width: 320px;
+    background-color: #fff;
+    color: #5a514c;
+    text-align: center;}
+
+h3{
+    background-image: url("https://img.skatewarehouse.com/watermark/rs.php?path=ALNRSCMP-1.jpg&nw=435");
+    float: right;
+    clear: left;
+    width: 320px;
+    background-color: #fff;
+    color: #a78674;
+    text-align: left;
+    height: 550px
+}
+h4 {
+    background-image: url("https://cdn11.bigcommerce.com/s-ae3w3/images/stencil/500x659/products/53986/110758/PS21W0032__85497.1616619286.jpg?c=2");
+    float: right;
+    clear: left;
+    width: 320px;
+    background-color: #fff;
+    color: #a78674;
+    text-align: left;
+    height:450px
+}
+h5 {
+    background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTdmtsU8v6n23xFC4SX5Z8i6dtfYI6rmAdjwuOkvJAveAdlRzSPThnTuAHcosuLavnS18eFY9zRU2g75YSGD19PSy9cjLeaCFmBnYRoAtU9EvbrsqyKRLB_Eg&usqp=CAE");
+    float: right;
+    clear: left;
+    width: 420px;
+    background-color: #fff;
+    color: #a78674;
+    text-align: left;
+    height:550px
+}
+h6 {
+    background-image: url("https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQldT45owh0-ZxM40oOUzQjRtYEXpLRWVJW_KHTzIqYPSXhdRnJ8M6y2lmx0kAP5ShlnflPO4B78GI-TSWdF9648URGUZCMohIiWPpDHEUGul-OK1J-dqaQzg&usqp=CAE");
+    float: right;
+    clear: left;
+    width: 550px;
+    background-color: #fff;
+    color: #a78674;
+    text-align: left;
+    height:350px
+}
+
+
+h1 {
+    margin: 50px 0 0 50px;
+    height: 175px;
+    background-image: url("https://mystickermania.com/cdn/stickers/skateboard/previews-256x256.png");
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    border-top: 1px solid #bcbdc0;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;}
+
+h3, h4, h5, h6, #cost{
+    margin: 0 0 0 50px;
+    padding: 25px 0 0 0;
+    font-family: 'Open Sans', arial, sans-serif;
+    font-size: 1.8em;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 0.80em;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    border-left: 1px solid #bcbdc0;
+    border-right: 1px solid #bcbdc0;}
+
+p {
+    margin: 0 0 0 50px;
+    padding: 30px 0 25px 0;
+    font-weight: bold;
+    text-align: center;
+    border-right: 1px solid #bcbdc0;
+    border-bottom: 1px solid #bcbdc0;
+    border-left: 1px solid #bcbdc0;}
+
+/* Border under box when you move script in the last example */
+p + script + h3 {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #bcbdc0;}
+
+/* Fix for full-screen background image: Chrome on Android */
+html{
+    height:100%;
+    min-height:100%;}
+body{
+    min-height:100%;}
